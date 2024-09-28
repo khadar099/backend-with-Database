@@ -2,14 +2,14 @@ pipeline {
     agent {
         label 'slave'
     }
-    
+
     tools {
         maven 'maven3'
     }
 
     environment {
         SONAR_HOME= tool 'sonar-scanner'
-    }
+    }  
 
     stages {
         
@@ -104,6 +104,4 @@ pipeline {
             }
         }
        
-
-
         }    }
