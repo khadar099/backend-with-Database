@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         SONAR_HOME= tool 'sonar-scanner'
-    }
+    } 
 
     stages {
         
