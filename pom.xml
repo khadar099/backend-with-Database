@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository --> 
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>bankapp</artifactId>
@@ -83,11 +83,11 @@
 		<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://3.110.193.57:8081/repository/maven-releases/</url>
+            <url>http://54.157.104.19:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://3.110.193.57:8081/repository/maven-snapshots/</url>
+            <url>http://54.157.104.19:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
