@@ -2,7 +2,7 @@ server:
   port: 8081
 logging:
   file:
-    name: app.log  # Specify the name of the log file
+    name: skbankapp.log  # Specify the name of the log file
     # Or, specify a custom log file path
     path: /var/log/skbank
 
