@@ -4,7 +4,6 @@ logging:
   file:
     name: skbankapp.log  # Specify the name of the log file
     # Or, specify a custom log file path
-    path: /var/log/skbank
 
   level:
     root: INFO
