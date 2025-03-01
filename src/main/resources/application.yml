@@ -2,9 +2,9 @@ server:
   port: 8081
 logging:
   file:
-    name: skbankapp.log  # Specify the name of the log file
+    name: app.log  # Specify the name of the log file
     # Or, specify a custom log file path
 
-  level:
-    root: INFO
-    com.example.demo: DEBUG
+  #level:
+    #root: INFO
+    #com.example.demo: DEBUG
