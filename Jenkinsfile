@@ -28,7 +28,7 @@ stages {
     stage ('deploy docker image or run container in ec2 instance') {
         steps {
             sh 'docker ps -q -f name=SKB-Bank_container && docker stop SKB-Bank_container && docker rm SKB-Bank_container || echo "Container not found or already stopped."'
-            sh 'docker run -d -p 8181:8181 --name SKB-Bank_container khadar3099/skb-bank-app:v.${BUILD_NUMBER}'
+            sh 'docker run -d -p 8081:8081 --name SKB-Bank_container khadar3099/skb-bank-app:v.${BUILD_NUMBER}'
           }
       }
   }   
